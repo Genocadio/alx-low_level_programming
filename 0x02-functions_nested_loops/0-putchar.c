@@ -1,11 +1,9 @@
 #include "main.h"
-	/**
-	 * main - print _putchar
-	 * is written by mbah
-	 * Return: 0
-	 */
-
-
+/**
+ * main - Entry point
+ *
+ * Return: 0 means success
+ */
 	int main(void)
 	{
 	_putchar('_');
@@ -19,5 +17,3 @@
 	_putchar('\n');
 	return (0);
 	}
-
-
