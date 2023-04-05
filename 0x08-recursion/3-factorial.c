@@ -1,13 +1,11 @@
 #include "main.h"
-/*
- * factorial - function to find the factorial of number
- * @n: in put number to find the factorial
- * Return: the factorial of a number or else -1 if number is less than 0
+/**
+ * factorial - function to find factorial of a number
+ * @n: number to find factorial
+ * Return: the factorial of postive number or -1 if number is negative
  */
 int factorial(int n)
 {
-	int y;
-
 	if (n < 0)
 	{
 		return (-1);
@@ -17,8 +15,7 @@ int factorial(int n)
 		return (1);
 	}
 	else
-	y = n * factorial(n - 1);
-	return (y);
+	return (n * factorial(n - 1));
 }
 
 
