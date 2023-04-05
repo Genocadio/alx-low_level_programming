@@ -1,5 +1,9 @@
 #include "main.h"
-void _puts_recursion(char *s)
+/**
+ *_puts_recursion - a function that prints a string followed by a new line
+ *Return: no return for this function
+ */
+ void _puts_recursion(char *s)
 {
 	if (*s == '\0')
 	{
