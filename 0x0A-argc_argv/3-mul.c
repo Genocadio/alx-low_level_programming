@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
 
 	if (argc < 3 || argc > 3)
 	{
-		printf("error");
+		printf("error\n");
 		return (1);
 	}
 	else
