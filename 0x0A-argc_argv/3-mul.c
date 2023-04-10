@@ -47,13 +47,13 @@ int main(int argc, char *argv[])
 		printf("error\n");
 		return (1);
 	}
-	else
-	{
+	
+	
 	num1 = _atoi(argv[1]);
 	num2 = _atoi(argv[2]);
 	j = num1 * num2;
 	printf("%d\n", j);
-	}
+	
 	return (0);
 	}
 
