@@ -30,11 +30,7 @@ char *str_concat(char *s1, char *s2)
 	l = strlen(s1);
 
 	for (i = 0; i < l && *s1 != '\0'; i++)
-	{
-		if (*s1 == '\0')
-			break;
 		ptr[i] = s1[i];
-	}
 	j = i;
 	if (i != 0)
 	{
