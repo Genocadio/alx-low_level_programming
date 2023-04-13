@@ -26,15 +26,14 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	if (!np)
 		return (NULL);
 	pt = ptr;
+        if (new_size < old_size)
+        {
+                for (i = 0; i < new_size; i++)
+                        np[i] = pt[i];
+        }
 	if (new_size > old_size)
 	{
 		for (i = 0; i < old_size; i++)
-			np[i] = pt[i];
-	}
-
-	if (new_size < old_size)
-	{
-		for (i = 0; i < new_size; i++)
 			np[i] = pt[i];
 	}
 	free(ptr);
