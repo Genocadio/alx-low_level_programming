@@ -27,7 +27,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	       return (NULL);
 	for (l = 0; l < i; l++)
 		str[l] = s1[l];
-	printf("%s\n", str);
 	while (n < j && l < (i + n))
 	{
 		str[l] = s2[k];
