@@ -10,8 +10,9 @@
 int main(void)
 {
     char *concat;
+    char *tt = NULL;
 
-    concat = string_nconcat("Best ", "School !!!", 12);
+    concat = string_nconcat(tt, "School !!!", 12);
     printf("%s\n", concat);
     free(concat);
     return (0);
