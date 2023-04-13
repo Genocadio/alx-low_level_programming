@@ -32,17 +32,18 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (l = 0; l < i; l++)
 		str[l] = s1[l];
-		while (n < j && l < (i + n))
-		{
-			str[l] = s2[k];
-			l++;
-			k++;
-		}
-		while (n >= j && l < (i + j))
-		{
-			str[l] = s2[k];
-			l++;
-			k++;
-		}
+
+	while (n < j && l < (i + n))
+	{
+		str[l] = s2[k];
+		l++;
+		k++;
+	}
+	while (n >= j && l < (i + j))
+	{
+		str[l] = s2[k];
+		l++;
+		k++;
+	}
 	return (str);
 }
