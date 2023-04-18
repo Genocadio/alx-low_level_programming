@@ -38,9 +38,10 @@ char **strtow(char *str)
 	if (str == NULL || *str == '\0')
 		return (NULL);
 
+
 	n_words = wordsc(str);
 	words = malloc(sizeof(char *) * (n_words + 1));
-	if (words == NULL)
+	if (words == NULL || n_words == 0)
 		return (NULL);
 
 	for (i = 0, j = 0; i < n_words; i++)
