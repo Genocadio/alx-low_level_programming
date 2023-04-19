@@ -4,9 +4,8 @@
 /**
  * main - prints its own opcodes
  * @argc: number of arguments
- * @argv: array of arguments
- *
- * Return: Always 0 (Success)
+ * @argv: arguments to function main
+ * Return: Always 0
  */
 int main(int argc, char *argv[])
 {
