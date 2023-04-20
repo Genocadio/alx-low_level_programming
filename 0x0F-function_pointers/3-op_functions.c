@@ -9,6 +9,7 @@
 int op_add(int a, int b)
 {
 	int sum;
+
 	sum = a + b;
 	return (sum);
 }
@@ -16,7 +17,7 @@ int op_add(int a, int b)
  * op_sub - functio that substructs two integers
  * @a: first int
  * @b: second int
- * Return sum of the integers
+ * Return: differance of the integers
  */
 int op_sub(int a, int b)
 {
