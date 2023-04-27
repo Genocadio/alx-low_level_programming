@@ -2,6 +2,7 @@
 #include "lists.h"
 /**
  * print - function to print a message
+ * Return: 0 means success
  */
 int print(void) __attribute__((constructor));
 int print(void)
