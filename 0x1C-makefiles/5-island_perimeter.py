@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """impremen of island_perimmeter function"""
 
+
 def island_perimeter(grid):
     """
     Function that returns the perimeter of an island described in a grid.
@@ -19,4 +20,3 @@ def island_perimeter(grid):
                     perm -= 2
 
     return perm
-
